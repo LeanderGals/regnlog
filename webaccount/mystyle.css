@@ -1,0 +1,101 @@
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+* {
+  box-sizing: border-box;
+}
+.input {
+  padding: 16px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type="text"]::placeholder {
+  text-align: center;
+}
+body {
+  text-align: center;
+  background-image: url("./images/bg5.gif");
+  background-size: cover;
+}
+
+form,
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px;
+  border-radius: 0px 0px 10px 10px;
+}
+.input {
+  color: white;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 50;
+}
+a {
+  color: dodgerblue;
+}
+.signin {
+  text-align: center;
+}
+.all{
+  color: white;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.center2{
+  text-align: center;
+}
+.logoutbtn{
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.logoutbtn:hover {
+  opacity: 50;
+}
+.updatebtn{
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.updatebtn:hover {
+  opacity: 50;
+}
